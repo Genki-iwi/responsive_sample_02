@@ -25,15 +25,15 @@ body {
 header {
     position: relative;
     box-shadow: 0 4px 0.3125rem rgba(0, 0, 0, 0.3);
-    background-color: #333;
-    color: white;
+    background-color: #6a197d;
+    color: #978383;
 }
 
 #lists {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #444;
+    background-color: #e0dede;
     box-shadow: 0 4px 0.3125rem rgba(0, 0, 0, 0.3);
     opacity: 0.85;
 }
@@ -46,7 +46,7 @@ header {
     padding: 1rem 0;
     text-decoration: none;
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 #lists li a:hover {
     background: black;
@@ -58,11 +58,11 @@ main {
 }
 article {
     text-align: justify;
-    background-color: white;
+    background-color: e0dede;
 }
 aside {
     text-align: left;
-    background-color: #eee;
+    background-color: #ffa5b0;
 }
 article h1,
 article p,
@@ -74,6 +74,6 @@ aside p {
 footer {
     padding: 1.5rem;
     text-align: center;
-    background-color: #333;
-    color: white;
+    background-color: #6a197d;
+    color: e0dede;
 }
